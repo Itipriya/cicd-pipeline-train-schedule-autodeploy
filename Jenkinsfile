@@ -3,7 +3,6 @@ pipeline {
     environment {
         //be sure to replace "bhavukm" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "itishree/train-schedule"
-        registryCredential = ‘Docker’
     }
     stages {
         stage('Build') {
